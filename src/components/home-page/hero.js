@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section class={classes.hero}>
+    <section className={classes.hero}>
       <div className={classes.image}>
         <Image
           src="/images/site/damian.jpg"
