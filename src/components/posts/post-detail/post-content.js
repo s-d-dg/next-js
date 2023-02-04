@@ -12,7 +12,7 @@ const DUMMY_POST = {
 };
 
 export default function PostContent(props) {
-  const { slug, title, image, date, content } = DUMMY_POST;
+  const { slug, title, image, date, content } = props.post;
   const imagePath = `/images/posts/${slug}/${image}`;
 
   return (
