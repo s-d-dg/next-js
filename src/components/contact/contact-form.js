@@ -26,14 +26,14 @@ export default function ContactForm() {
   const [requestStatus, setRequestStatus] = useState(); // 'pending'. 'success', 'error'
   const [requestError, setRequestError] = useState();
 
-  useEffect(() => {
-    if (requestStatus === "success" || requestStatus === "error") {
-      const timer = setTimeout(() => {
-        setRequestStatus(null);
-      }, 3000);
-      return () => clearTimeout(timer);
-    }
-  }, [requestStatus]);
+  // useEffect(() => {
+  //   if (requestStatus === "success" || requestStatus === "error") {
+  //     const timer = setTimeout(() => {
+  //       setRequestStatus(null);
+  //     }, 3000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [requestStatus]);
 
   async function sendMessageHandler(event) {
     event.preventDefault();
