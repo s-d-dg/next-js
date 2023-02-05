@@ -14,6 +14,11 @@ export default function handler(req, res) {
       return;
     }
 
+    // only to simulate server errors
+    if (message.includes("error")) {
+      res.status(500).json({ message: "Some server error example" });
+    }
+
     // Store it in a databasenmdfkckjkfnslvm,sp;fnmc
     const newMessage = {
       email,
