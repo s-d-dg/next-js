@@ -1,5 +1,8 @@
 This is training application to practice NextJS functionalities. 
 
+Thank's to Maximilian Schwarzmoeller who created course NextJS (https://www.udemy.com/course/nextjs-react-the-complete-guide/).
+
+This application is build step by step from a above course.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
